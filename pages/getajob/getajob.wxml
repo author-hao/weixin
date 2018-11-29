@@ -1,0 +1,22 @@
+<!-- 就业率好 -->
+<view class='getajob'>
+  <view class='getajob-title'>
+    就业率好
+  </view>
+  <view class='getajob-text'>
+    专业班级姓名、地区、籍贯
+  </view>
+  <view class='getajob-content'> 
+     <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">文字组合列表</view>
+            <view class="weui-panel__hd">文字组合列表</view>
+            <view class="weui-panel__hd">文字组合列表</view>
+            <view class="weui-panel__hd">文字组合列表</view>
+            <view class="weui-panel__hd">文字组合列表</view>
+            <view class="weui-panel__hd">文字组合列表</view>
+            <view class="weui-panel__hd">文字组合列表</view>
+            <view class="weui-panel__hd">文字组合列表</view>
+            <view class="weui-panel__hd">文字组合列表</view>
+        </view>
+  </view>
+</view>

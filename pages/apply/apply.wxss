@@ -1,0 +1,34 @@
+/* 学生登记报名 */
+.apply {
+  width: 100%;
+}
+.apply .apply-title {
+  width: 100%;
+  text-align: center;
+  font-size: 40rpx;
+  line-height: 80rpx;
+}
+.apply .apply-warpper {
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.apply .apply-warpper .apply-text {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  line-height: 100rpx;
+  border-bottom: 1px solid #eee;
+  font-size: 35rpx;
+}
+.apply .apply-warpper .apply-text text {
+  display: block;
+  width: 25%;
+  text-align: right;
+}
+.apply .apply-warpper .apply-text input {
+  width: 70%;
+  display: block;
+  height: 80rpx;
+  margin-top: 10rpx;
+}

@@ -1,0 +1,14 @@
+<!--搜索-->
+<view class='search'>
+  <view class="page__hd">
+    <view class="page__title">就业信息查询</view>
+  </view>
+  <view class='search-text'>
+     <view class="search-title">请输入学生姓名</view>
+     <view class="search-inp">
+      <input type='text' />
+     </view>
+  </view>
+
+  
+</view>

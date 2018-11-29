@@ -1,0 +1,118 @@
+<!--首页-->
+<view class='home'>
+  <view class='home-title'>
+      <text>欢迎，小西瓜</text>
+  </view>
+  <view class='home-warpper'>
+    <scroll-view scroll-y>
+      <view class='home-content'>
+      <!-- 轮播 -->
+        <swiper class='home-swiper' indicator-dots="{{indicatorDots}}"
+          autoplay="{{autoplay}}" indicator-active-color='{{indicatorColor}}' circular='true' interval="{{interval}}" duration="{{duration}}">
+          <block wx:for="{{imgUrls}}">
+            <swiper-item class='home-item'>
+              <image src="{{item}}" class="slide-image" />
+            </swiper-item>
+          </block>
+        </swiper>
+        <!-- 导航 -->
+        <view class='home-icon'>
+          <view class="home-group">
+            <view class='home-block' wx:for='{{iconType}}'>
+              <icon type="{{item.icon}}" class='icon' size="{{ iconSize }}" />
+              <text>{{item.name}}</text>
+            </view>
+          </view>
+        </view>
+        <!-- 主题 -->
+        <view class='home-theme'>
+          <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">集团通知</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                </view>
+                <view class="weui-media-box weui-media-box_text">
+                    
+                    <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                </view>
+            </view>
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+        </view>
+        </view>
+       <!-- 主题 -->
+        <view class='home-theme'>
+          <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">集团通知</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                </view>
+                <view class="weui-media-box weui-media-box_text">
+                    
+                    <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                </view>
+            </view>
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+        </view>
+        </view>
+
+         <!-- 主题 -->
+        <view class='home-theme'>
+          <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">集团通知</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                </view>
+                <view class="weui-media-box weui-media-box_text">
+                    
+                    <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                </view>
+            </view>
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+        </view>
+        </view>
+
+         <!-- 主题 -->
+        <view class='home-theme'>
+          <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">集团通知</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                </view>
+                <view class="weui-media-box weui-media-box_text">
+                    
+                    <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                </view>
+            </view>
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+        </view>
+        </view>
+
+      </view>
+    </scroll-view>
+  </view>
+</view>
+

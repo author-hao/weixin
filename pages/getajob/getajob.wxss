@@ -1,0 +1,32 @@
+/* 就业率 */
+.getajob {
+  width: 100%;
+}
+.getajob .getajob-title {
+  width: 100%;
+  text-align: center;
+  line-height: 100rpx;
+}
+.getajob .getajob-text {
+  width: 100%;
+  text-align: center;
+  font-size: 35rpx;
+  line-height: 100rpx;
+}
+.getajob .getajob-content {
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.getajob .getajob-content .weui-panel {
+  width: 100%;
+}
+.getajob .getajob-content .weui-panel .weui-panel__hd {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+

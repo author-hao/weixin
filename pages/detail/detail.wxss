@@ -1,0 +1,16 @@
+/* 个人详情 */
+.detail {
+  width: 100%;
+}
+.detail .page {
+  width: 100%;
+}
+.detail .page .page__hd {
+  width: 100%;
+  text-align: center;
+}
+.detail .page .page__hd .page__desc {
+  width: 100%;
+  font-size: 30rpx;
+  color: #999;
+}

@@ -1,0 +1,8 @@
+/* 主题详情 */
+.themelist {
+  width: 100%;
+}
+.themelist .weui-panel .weui-panel__hd {
+  color: #333;
+  font-size: 40rpx;
+}

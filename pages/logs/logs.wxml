@@ -1,0 +1,22 @@
+<!--登录页-->
+<view class="container log-list">
+  <view class='login-logo'><image src='../../images/logo.png' alt=''/></view>
+  <view class='login-title'><text>积云信息平台市场专用</text></view>
+
+  <view class='login-form'>
+    <view class='login-inp'>
+      <text class='iconfont icon-character'></text>
+      <input type='text' bindfocus='onfocusName' bindblur='onblurName' style='{{ Border }}' placeholder='请输入姓名' />
+    </view>
+    <view class='login-inp'>
+      <text class='iconfont icon-shouji'></text>
+      <input type='number' bindfocus='onfocusNum' bindblur='onblurNum' style='{{ Num }}' maxlength='11' placeholder='请输入手机号' />
+    </view>
+    <view class='login-inp'>
+      <text class='iconfont icon-mima'></text>
+      <input type='password' bindfocus='onfocusPwd' bindblur='onblurPwd' style='{{ Pwd }}' placeholder='请输入密码' maxlength='20'/>
+    </view>
+    <text>{{ logs }}</text>
+    <button bindtap='onlogin'>登录</button>
+  </view>
+</view>

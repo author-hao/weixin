@@ -1,0 +1,84 @@
+.log-list {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx 50rpx;
+}
+.login-logo {
+  margin: 10rpx;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background: #eee;
+  padding: 20rpx;
+}
+.login-logo image {
+  width: 120rpx;
+  height: 100rpx;
+  margin-top: 10rpx;
+}
+.login-title {
+    width: 100%;
+    line-height: 80rpx;
+    font-size: 38rpx;
+    text-align: center;
+    margin: 20rpx;
+    font-family: '楷体';
+    font-weight: 900;
+    background: linear-gradient(to right, red , blue);
+    color: #fff;
+}
+.login-form {
+    width: 100%;
+    padding:40rpx 5rpx;
+    margin-top: 30rpx;
+    /* border: 1px solid #000; */
+    box-shadow: 0 0 10px #ccc;
+}
+.login-form .login-inp {
+  width: 100%;
+  position: relative;
+  margin-top: 20rpx;
+  height: 100rpx;
+  padding: 0 10rpx;
+  box-sizing: border-box;
+}
+.login-form .login-inp> text {
+  position: absolute;
+  top: 0;
+  left: 15rpx;
+  font-size: 40rpx;
+  font-weight: 599;
+  color:#1b93f5;
+}
+.login-form input {
+    width: 100%;
+    box-sizing:border-box;
+    border-bottom: 1px solid #eee;
+    min-height: 100rpx;
+    font-size: 30rpx;
+    padding-left: 85rpx;
+    color: #333;
+}
+:-ms-input-placeholder {
+  color: #ccc;
+}
+::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+.login-form text {
+  width: 100%;
+  display: block;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  padding: 20rpx;
+  color: #FF4500;
+}
+.login-form button {
+    margin-top: 20rpx;
+    background: #2969f3;
+    color: #fff;
+    width: 60%;
+}

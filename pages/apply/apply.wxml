@@ -1,0 +1,32 @@
+<!-- 预报名-->
+<view class='apply'>
+  <view class='apply-title'>
+    预报名学生登记
+  </view>
+  <view class='apply-warpper'>
+    <view class='apply-text'>
+      <text>姓名：</text>
+      <input type='text' placeholder='请输入姓名'/>
+    </view>
+    <view class='apply-text'>
+      <text>身份证：</text>
+      <input type='text' placeholder='请输入身份证'/>
+    </view>
+    <view class='apply-text'>
+      <text>学历：</text>
+      <input type='text' placeholder='请输入学历'/>
+    </view>
+    <view class='apply-text'>
+      <text>电话：</text>
+      <input type='text' placeholder='请输入电话'/>
+    </view>
+    <view class='apply-text'>
+      <text>性别：</text>
+      <input type='text' placeholder='请输入性别'/>
+    </view>
+    <view class='apply-text'>
+      <text>时间：</text>
+      <input type='text' placeholder='请输入时间'/>
+    </view>
+  </view>
+</view>

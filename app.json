@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/getajob/getajob",
+    "pages/apply/apply",
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/themelist/themelist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  }
+}

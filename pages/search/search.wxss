@@ -1,0 +1,35 @@
+/* 搜索 */
+.search {
+  width: 100%;
+}
+.search .page__hd {
+  width: 100%;
+  text-align: center;
+}
+
+.search .search-text {
+  width: 100%;
+  text-align: center;
+  margin-top: 50rpx;
+}
+.search .search-text .search-title {
+  font-size: 35rpx;
+  color: #999;
+}
+
+.search .search-text .search-inp {
+  width: 100%;
+  padding: 30rpx 50rpx;
+  box-sizing: border-box;
+}
+.search .search-text .search-inp input {
+  border: 1px solid #ccc;
+  border-radius: 20rpx;
+  height: 70rpx;
+}
+
+
+
+
+
+
